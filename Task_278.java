@@ -8,8 +8,8 @@ public class Task_278 {
         char[] list_1 = line_1.toCharArray();
         char[] list_2 = line_2.toCharArray();
         int n = list_1.length;
-        int m = list_2.length;
-        if (n > m) System.out.println("NO");
+        int m = list_2.length;                // Если первая последовательность длиннее второй,
+        if (n > m) System.out.println("NO");  // то подпоследовательность существовать не может
         else {
             int x = 0, y = 0;
             for (int i = 0; i < n; i++) {
